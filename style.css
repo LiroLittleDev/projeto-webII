@@ -76,7 +76,6 @@ main {
 }
 
 .event-card {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     background-color: #ecf0f1;
@@ -88,7 +87,6 @@ main {
 }
 
 .event-card h2 {
-    border: 1px solid red;
     padding: 10px;
     color: #2c3e50;
 }
