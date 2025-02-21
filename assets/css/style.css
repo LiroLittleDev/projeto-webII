@@ -99,12 +99,10 @@ main {
 }
 
 .event-card img {
-    border: 1px solid red;
     margin-left: 10px;
     width: 150px;
     border-radius: 10px;
 }
-
 
 /* Rodapé */
 footer {
