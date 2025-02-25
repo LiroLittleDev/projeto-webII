@@ -2,14 +2,14 @@
    Em caso de duvida não mexa no codigo abaixo !! */
 
 
+
    @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
    * {
-       margin: 0px;
+       margin: 0;
        padding: 0;
        box-sizing: border-box;
    }
    body {
-
        font-family: 'Montserrat', sans-serif;
        font-size: 16px; /* Aumenta o tamanho do texto */
        background-color:#edede9 ;
@@ -18,15 +18,14 @@
        display: flex;
        justify-content: center;
        align-items: center;
-       height: 92vh;
+       height: 100vh;
        background-color: #edede9;
    }
    .content { /* Conteudo de dentro do quadrado verde   */
-        margin-top: 80px;
        background-color: #fff;
        border-radius: 15px;
        width: 960px;
-       height: 390px;
+       height: 50%;
        justify-content: space-between;
        align-items: center;
        position: relative;
@@ -43,8 +42,10 @@
        border-bottom-right-radius: 15px;
        left: 0%;
    }
+
    .title {
        font-size: 32px; /* Aumenta o tamanho do texto */
+       font-weight: bold;
        text-transform: capitalize;  
    }
    .title-primary {
@@ -52,7 +53,6 @@
        text-align: center; /* Centralizar o texto */
    }
    .title-second {     /*    */
-        margin-top: 120px;
        color: #67a800;;
        text-align: center; /* Centralizar o texto */
    }
@@ -95,7 +95,6 @@
        background-color: #67a800;;
        border: 1px solid #67a800;;
        transition: background-color .5s;
-       margin-bottom: 120px;
    }
    .btn-second:hover {
        background-color: #fff;
@@ -178,7 +177,7 @@
        align-items: center;
        margin: 5px;
        border: none;
-       padding: 2px 1px;
+       padding: 5px 5px;
        border-radius: 5px;
    }
    .icon-modify{
